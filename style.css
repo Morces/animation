@@ -13,7 +13,7 @@ position: relative;
 overflow: hidden;
 }
 .logo {
-width: 100px;
+width: 150px;
 cursor: pointer;
 }
 .navbar {
@@ -57,6 +57,11 @@ z-index: 2;
 h1 {
 font-size: 60px;
 margin: 10px 0 30;
+}
+.about {
+display: flex;
+flex-wrap: wrap;
+text-align: left;
 }
 .side-bar {
 width: 50px;
