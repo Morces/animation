@@ -24,6 +24,20 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+ul {
+width: 40%;
+display: flex;
+justify-content: space-between;
+list-style: none;
+color: white;
+}
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+color: blue;
+}
 button {
 padding: 10px 25px;
 background: transparent;
