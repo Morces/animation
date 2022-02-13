@@ -6,9 +6,41 @@ font-family: sans-serif;
 .start {
 width: 100%;
 height: 100vh;
-background-image: url(/img/foam.png);
+background-image: url(/img/foam.jpg);
 background-size: cover;
 background-position: center;
 position: relative;
 overflow: hidden;
+}
+.logo {
+width: 100px;
+cursor: pointer;
+}
+.navbar {
+width: 85%;
+height: 15%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+button {
+padding: 10px 25px;
+background: transparent;
+border: 1px solid;
+border-radius: 50px;
+outline: none;
+cursor: pointer;
+}
+.content {
+color: black;
+position: absolute;
+top: 50%;
+left: 8%;
+transform: translateY(-50%);
+z-index: 2; 
+}
+h1 {
+font-size: 60px;
+margin: 10px 0 30;
 }
